@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Concierge Reset Password</title>
+</head>
+<body>
+    <div id="body">
+        <h2>Redefinição de senha de usuário</h2>  
+        <form id="form">
+          <fieldset>
+            <legend>Insira sua nova senha</legend>
+            <div id="input-container">
+              <input placeholder="Nova senha" id="password" type='password'/>
+              <input placeholder="Confirmar senha" id="confPassword" type='password'/>
+              <textarea placeholder="Cole o código aqui" id="token"></textarea>
+            </div>
+            <div id="btn-container">
+              <input type='button' value='Limpar' onclick='cleanFileds()'/>
+              <input type='submit' value='Alterar senha'/>
+            </div>
+          </fieldset>
+        </form>    
+      </div>
+</body>
+    <script src="script.js"></script>
+</html>
